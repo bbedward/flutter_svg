@@ -12,7 +12,7 @@ Color parseColor(String colorString) {
   }
 
   if (colorString == 'none') {
-    return null;
+    return colorBlack;
   }
 
   // handle hex colors e.g. #fff or #ffffff.  This supports #RRGGBBAA
